@@ -33,6 +33,7 @@ button {
   letter-spacing: 0.1rem;
   line-height: 1.6;
   color: #fff;
+  text-decoration: none;
 }
 
 li {
@@ -494,6 +495,10 @@ country Card
     border-radius: 5rem;
     margin-top: 1rem;
   }
+}
+
+.search-input input{
+  padding: 0.6rem 2.4rem;
 }
 
 ::placeholder {
