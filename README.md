@@ -1,8 +1,20 @@
-# React + Vite
+# 🌍 Country Info Explorer - ReactJS Multipage Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a multipage website built with **ReactJS** that displays detailed information about countries. It fetches data from the free and open [REST Countries API](https://restcountries.com/) using **Axios**, and leverages React features like **hooks** and **React Router** for smooth client-side navigation.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse information for all countries (name, flag, population, region, etc.)
+- Search for a country by name
+- View detailed data for a selected country
+- Responsive design for all devices
+- Error handling for invalid or failed API requests
+- Loading indicators while fetching data
+
+## 🛠️ Tech Stack
+
+- **ReactJS**
+- **Axios** – For API requests
+- **React Router DOM** – For multipage routing
+- **CSS** – For styling (or Tailwind/Bootstrap if used)
+- **REST Countries API**
